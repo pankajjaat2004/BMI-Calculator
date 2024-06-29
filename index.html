@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="logic.js" defer></script>
+    <link rel="stylesheet" href="design.css">
+    <title>BMI CALCULATOR</title>
+</head>
+<body><div class="all">
+    <h1>BMI Calculator</h1>
+    <div>
+        <p>Name: </p>
+        <input id="Name" type="text">
+    </div>
+    <div>
+        <p>Gender: </p>
+        <input name="myCheckbox" id="i1" type="radio" onclick="selectOnlyThis(this)"><span>Male</span> &nbsp;
+        <input name="myCheckbox" id="i1" type="radio" onclick="selectOnlyThis(this)"><span>Female</span>
+    </div>
+    <div>
+        <p>Height: </p>
+        <input id="ht" class="number" type="number"><span class="span"> cm</span>
+    </div>
+    <div>
+        <p>Weight: </p>
+        <input id="wt" class="number" type="number"><span class="span"> kg</span>
+    </div>
+    <table>
+        <tr>
+            <td><button onclick="CalculateResult()">Calculate</button></td>
+            <td><button onclick="clearall()">Clear</button></td>
+        </tr>
+    </table>
+    <h1 id="result1" class="result"></h1>
+    <p id="output1" ></p>
+    <input id="resultout" type="text" readonly="true" value="">
+    <input id="status" type="text" readonly="true" value="">
+    
+
+</div>
+</body>
+</html>

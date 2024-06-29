@@ -1,0 +1,91 @@
+.all{
+    border-radius: 50px;
+    background: rgb(140, 140, 140);
+    padding: 20px;
+}
+h1{
+    text-align: center;
+    cursor: default;
+}
+div{
+    margin: auto;
+    width: 260px;
+    margin-bottom: 20px;
+}
+p{
+    font-weight: 600;
+    display:contents;
+    margin: auto;
+    cursor: default;
+}
+#resultout{
+    display: block;
+    margin: auto;
+    text-align: center;
+    width:180px;
+    height: 45px;
+    text-align:center;
+    font-size: 40px;
+    border: none;
+    background-color: rgb(140, 140, 140);
+    cursor: default;
+}
+.result{
+    background: rgba(203, 203, 96, 0.932);
+    border-radius: 100%;
+}
+table{
+    margin: auto;
+}
+p{
+    font-size:large;
+}
+#i1{
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+}
+.number{
+    width: 70px;
+    padding: 20;
+    height: 16px;
+}
+.span{
+    margin-left: -27px;
+    color: rgb(87, 87, 87);
+    cursor: default;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+button{
+    font-weight: 600;
+    color: rgb(184, 184, 184);
+    background: rgb(41, 8, 94);
+    margin: 15px 30px 0 20px;
+    height: 38px;
+    width: auto;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 2px solid rgb(61, 61, 61);
+    transition: 0.65s;
+}
+button:hover{
+    transform: rotate3d(1,2,3,15deg) scale(1.1);
+}
+
+#status{
+    background:rgb(140, 140, 140) ;
+    border: none;
+    width: 200px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-weight: 700;
+    color: rgb(22, 11, 140);
+    font-size: 20px;
+    font-style: italic;
+    cursor: default;
+}
